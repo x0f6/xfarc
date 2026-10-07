@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>x0f6 archive</title>
+  <link rel="icon" type="image/x-icon" href="img/logo_x0f6.svg" />
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <!-- <img id="tex" src="img/tex.webp"/> -->
+
+  <header>
+    <!-- <h1>* 0f6</h1> -->
+    <a href="https://oglaize.framer.media/" target="_blank" title="Portfolio"><div id="logo-anim" title="Home"></div></a>
+    <a href="../index.html" title="Home"><div class="header-title">Experimental & unfinished works archive</div></a>
+    <div class="header-links">
+      <!-- <a href="https://oglaize.framer.media/" target="_blank" title="Portfolio">portfolio</a> -->
+      <!-- <a href="journal.html">journal</a> -->
+      <!-- <a href="../about.html" title="About">about</a> -->
+    </div>
+  </header>
+
+  <main class="storm">
+    <div class="planete">
+      <video src="../src/241116storm.mp4" autoplay muted loop playsinline></video>
+      <svg viewBox="0 0 200 200">
+        <defs>
+          <path id="cercle" d="M 100,100 m -80,0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"/>
+        </defs>
+        <text>
+          <textPath href="#cercle">
+            storm * 11/24 • storm * 11/24 • storm * 11/24 •
+          </textPath>
+        </text>
+      </svg>
+    </div>
+  </main>
+
+
+  <!-- Script anim logo -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+<script>
+lottie.loadAnimation({
+  container: document.getElementById('logo-anim'),
+  path: '../lottie/logo_anim.json',
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+});
+</script>
+</body>
+
+</html>

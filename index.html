@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xfarch</title>
+  <link rel="icon" type="image/x-icon" href="img/logo_x0f6-grey.svg" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="dither-script/as-dithered-image.js"></script>
+  <canvas id="bg"></canvas>
+
+  <!-- <img id="tex" src="img/tex.webp"/> -->
+
+  <header>
+    <!-- <h1>* 0f6</h1> -->
+    <!-- <div class="header-logo" title="Home"><a href="index.html"><svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1016.7 418.02"><g id="group-svg"><polygon points="274.77 137.25 163.17 205.73 166.44 75.58 127.7 75.58 130.97 206.01 19.37 137.25 0 172.45 113.51 234.38 0 296.32 19.37 331.52 130.97 263.03 127.7 393.46 166.44 393.46 163.17 263.03 274.77 331.52 294.14 296.32 180.36 234.38 294.14 172.45 274.77 137.25"/><path d="M894.73,157.71c-25.1,0-53.48,11.73-65.21,27.56l-4.09-2.18c1.91-4.37.82-3.27,12.83-20.19L945.75,15.28h-55.39c-1.96,2.94-44.61,62.71-69.89,98.5h-114.45v-30.56c0-29.74,21.83-45.02,63.03-45.02,16.64,0,54.84,1.09,67.67,2.46V2.73c-9.82-1.36-51.02-2.73-68.21-2.73-72.85,0-108.32,26.74-108.32,84.04v29.74h-45.85c-18.79-69.82-60.46-107.23-121.54-107.23-85.68,0-132.88,73.13-132.88,205.73s47.2,205.73,132.88,205.73,132.88-73.12,132.88-205.73c0-21.18-1.22-40.84-3.6-58.94h38.12v255.67h46.39v-255.67h86.77c-31.21,48.42-44.31,87.04-44.31,129.33,0,78.31,55.94,134.52,133.43,134.52s134.25-56.48,134.25-134.52c0-71.76-51.84-124.97-121.97-124.97ZM409.56,255.67c-1.09-13.37-1.91-27.83-1.91-43.38,0-106.96,29.47-163.17,85.13-163.17,37.11,0,62.76,25.1,75.58,73.94l-158.8,132.61ZM492.78,375.45c-37.11,0-62.48-25.1-75.31-73.4l158.26-133.7c1.36,13.64,1.91,28.1,1.91,43.93,0,106.69-29.2,163.17-84.86,163.17ZM882.72,374.36c-49.39,0-87.04-38.75-87.04-89.22s37.65-89.5,87.04-89.5,87.31,38.75,87.31,89.5-37.65,89.22-87.31,89.22Z"/></g></svg></a></div> -->
+    <a href="https://oglaize.framer.media/" target="_blank" title="Portfolio">
+      <div id="logo-anim"></div>
+    </a>
+    <div class="header-title">Experimental & unfinished works archive</div>
+    <!-- <div class="header-links">
+      <a href="https://oglaize.framer.media/" target="_blank" title="Portfolio">portfolio</a>
+      <a href="journal.html">journal</a>
+      <a href="about.html" title="About">about</a>
+    </div> -->
+  </header>
+
+  <main class="gallery">
+    <!-- <div class="item"><img src="src"/><p>titre<br/>07/25</p></div> -->
+    <!-- <div class="item"><div class="media"><video class="lazy-video" muted loop playsinline preload="none" data-src=""></video></div><p class="desc">...<span class="etoile">*</span> ../..</p></div> -->
+    <div class="item">
+      <div class="media"><video poster="src/posters/260817acubilyrics.jpg" data-src="src/260817acubilyrics.mp4"></video>
+      </div>
+      <p class="desc">acubi lyrics <span class="etoile">*</span> 08/26</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/260226flowers.jpg" data-src="src/260226flowers.mp4"></video></div>
+      <p class="desc">flowers <span class="etoile">*</span> 02/26</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/260124blindingfaith.jpg"
+          data-src="src/260124blindingfaith.mp4"></video></div>
+      <p class="desc">blinding faith <span class="etoile">*</span> 01/26</p>
+    </div>
+    <!-- <a href="items/windows.html"> -->
+      <div class="item">
+        <div class="media"><video poster="src/posters/260119windows.jpg" data-src="src/260119windows.mp4"></video></div>
+        <p class="desc">windows <span class="etoile">*</span> 01/26</p>
+      </div>
+    <!-- </a> -->
+    <div class="item">
+      <div class="media"><img src="src/250602spikes.webp" /></div>
+      <p class="desc">spikes <span class="etoile">*</span> 06/25</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/250528beachhouse.jpg" data-src="src/250528beachhouse.mp4"></video>
+      </div>
+      <p class="desc">beach house <span class="etoile">*</span> 05/25</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/250517love.jpg" data-src="src/250517love.mp4"></video></div>
+      <p class="desc">love <span class="etoile">*</span> 05/25</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/241210burn.jpg" data-src="src/241210burn.mp4"></video></div>
+      <p class="desc">Burn <span class="etoile">*</span> 12/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/241118wax.jpg" data-src="src/241118wax.mp4"></video></div>
+      <p class="desc">Wax <span class="etoile">*</span> 11/24</p>
+    </div>
+    <!-- <a href="items/storm.html"> -->
+      <div class="item">
+        <div class="media"><video poster="src/posters/241116storm.jpg" data-src="src/241116storm.mp4"></video></div>
+        <p class="desc">storm <span class="etoile">*</span> 11/24</p>
+      </div>
+    <!-- </a> -->
+    <div class="item">
+      <div class="media"><video poster="src/posters/241108suffocate.jpg" data-src="src/241108suffocate.mp4"></video>
+      </div>
+      <p class="desc">suffocate <span class="etoile">*</span> 11/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/240224sneaker.jpg" data-src="src/240224sneaker.mp4"></video></div>
+      <p class="desc">sneakkle <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><img src="src/240223card.webp" /></div>
+      <p class="desc">card <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/240219van.jpg" data-src="src/240219van.mp4"></video></div>
+      <p class="desc">van <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/240219purity.jpg" data-src="src/240219purity.mp4"></video></div>
+      <p class="desc">Purity <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/240218yawn.jpg" data-src="src/240218yawn.mp4"></video></div>
+      <p class="desc">yawn <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><img src="src/240217scene.webp" /></div>
+      <p class="desc">meat.raw <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><img src="src/240209head.webp" /></div>
+      <p class="desc">head <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/240204tritone.jpg" data-src="src/240204tritone.mp4"></video></div>
+      <p class="desc">tritone <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><img src="src/240202oro27.webp" /></div>
+      <p class="desc">Oro27 <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/240202eliacube.jpg" data-src="src/240202eliacube.mp4"></video></div>
+      <p class="desc">Eliacube <span class="etoile">*</span> 02/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/240115samourai.jpg" data-src="src/240115samourai.mp4"></video></div>
+      <p class="desc">Samourai <span class="etoile">*</span> 01/24</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/230607cube.jpg" data-src="src/230607cube.mp4"></video></div>
+      <p class="desc">reflections <span class="etoile">*</span> 06/23</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/230602headbang.jpg" data-src="src/230602headbang.mp4"></video></div>
+      <p class="desc">death metal <span class="etoile">*</span> 06/23</p>
+    </div>
+    <div class="item">
+      <div class="media"><img src="src/230526sqyworld.webp" /></div>
+      <p class="desc">sqyworld <span class="etoile">*</span> 05/23</p>
+    </div>
+    <div class="item">
+      <div class="media"><img src="src/230526skullcandies.webp" /></div>
+      <p class="desc">skull candies <span class="etoile">*</span> 05/23</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/230524party.jpg" data-src="src/230524party.mp4"></video></div>
+      <p class="desc">liquor <span class="etoile">*</span> 05/23</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/230523monster.jpg" data-src="src/230523monster.mp4"></video></div>
+      <p class="desc">Monster <span class="etoile">*</span> 05/23</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/210716isometry.jpg" data-src="src/210716isometry.mp4"></video></div>
+      <p class="desc">Isometry <span class="etoile">*</span> 07/21</p>
+    </div>
+    <div class="item">
+      <div class="media"><video poster="src/posters/190601memory.jpg" data-src="src/190601memory.mp4"></video></div>
+      <p class="desc">memory <span class="etoile">*</span> 06/19</p>
+    </div>
+  </main>
+  <!-- <as-dithered-image crunch="2" src="src/240202oro27.webp"></as-dithered-image> -->
+
+  <footer>
+    <!-- <pre>
+.                                        ...                                              
+......                             ....:::........                                        
+.......                        .::::.........:::.....                                     
+......                        -=-:::............:.::::                                    
+..                          .--:::................::.::                                   
+                            ::::......  .........:-.....                                  
+                           .-:-.......   ........:...::.                                  
+                           .-::......          . . ..::::.                                
+                           ....:.... .         ......:.:.. .                              
+.                         .........  .         .. .....:....                              
+.                         ......           . .. ..... .::...                              
+                          .:.....   ..    ....    .. .......                              
+                            .::...    .....        . . .:..                               
+                             .....  ......  .         ..:..                               
+                              .:...   .            ....::..                               
+                              .....         ...    ......                                 
+                                ..... ...   ..       ....                                 
+                                 .........          ...:-                                 
+                                 .........  .........:.:=.                                
+                           .......... ................:=-....                             
+                        .........:.--. ...............=:-:......                          
+                 .  . ........:------=:...........:..==-+-.......                         
+.         ...   .. ......  ..--:::..---:........::..=--==-::.::......                     
+.   ..  . ...  ....: :..  ...=..::.-=::--:.........--==--=---::.::. .    .                
+          .......:.. ::::::-:=+=---=-:::--:.:--:-=----::--:===:.::.:...  : .              
+     ....::::::::-==+=-=--==--=-++=----::::::--::===::::::-==--:::--:::.:...              
+  ..::::::::::::---===--::::-==-=++=--------==::::--===---:::::.:::---:--::..::.....      
+::::::::.........:...::::::--:-:::-::::---::----===+==-:-::::.::------:::..:..:-:.........
+:::::.::::::......:.......::::::::::::--::::--:------:::::::::::-::::........:-...........
+::.................................::::::::::-::::-::----:::::...........   .:.  .........
+::::..........   ..  ....................:::::..............................   ... .......
+:.............   . ..................:..:::::::...... .....:.........::.......  ..........
+..........         .. ......  . ..........................::........::::::................
+.......... . ..  ..                ...:..........................:....::::-:..............
+...............                 .................................::.....:::-:.............
+.................     ......   .......................::..........::::::.::::::...........
+......................::...:.......... ....      ....................::::::::---:.........
+................::::::.::::::............         ............. .......::::::::---::......
+..............::::...:::.:............   ...  ...................  ......::::::::::-::::..
+.............::::...................   .....  ................ .  . .::::...:::::::::--::.
+..................::........       .. ...................... .........::::::.:::::::::::::
+.......................::.          ....................... ......    ...:::::::::::::::::
+....................:....      .    ......  .....  .......     .. .........:::::::::::::::
+.......................        ..... ..   .. .:::     ...     . .............::::::::::::-
+.....................       .  ......  ...::.:::.  .::. .      ................:::::::::--
+  </pre> -->
+    <p>
+      <i>x0f6/xfarch</i> is an unfiltered and unselected archive of my personal visual creative projects. For a more
+      curated selection of my works, both personal and professional, please visit my official portfolio at <a
+        href="https://oglaize.framer.media/" target="_blank">https://oglaize.framer.media/</a>.
+    </p> <br />
+    <hr><br />
+    <p class="licence">
+      This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img
+      src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""
+      style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+      src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""
+      style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+      src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt=""
+      style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+      src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt=""
+      style="max-width: 1em;max-height:1em;margin-left: .2em;">
+    </p>
+  </footer>
+  <svg style="position:absolute; width:0; height:0;">
+    <filter id="duotone">
+      <feColorMatrix type="matrix" values="
+      0.33 0.33 0.33 0 0
+      0.33 0.33 0.33 0 0
+      0.33 0.33 0.33 0 0
+      0    0    0    1 0" result="grayscale" />
+      <feComponentTransfer in="grayscale" result="duotone" color-interpolation-filters="sRGB">
+        <feFuncR id="funcR" type="table" tableValues="0.13 0.94" />
+        <feFuncG id="funcG" type="table" tableValues="0.14 0.96" />
+        <feFuncB id="funcB" type="table" tableValues="0.14 0.94" />
+      </feComponentTransfer>
+      <feComposite in="duotone" in2="SourceGraphic" operator="in" />
+    </filter>
+  </svg>
+
+
+
+  <div class="lightbox-overlay" id="lightbox">
+    <!-- <button class="lightbox-close" id="lightbox-close" aria-label="fermer">✕</button> -->
+    <div class="lightbox-content" id="lightbox-content"></div>
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+  </div>
+
+
+  <!-- SCRIPT LOGO DE FOND -->
+  <script>
+  const canvas = document.getElementById('bg');
+  const gl = canvas.getContext('webgl', { antialias: false });
+
+  const vs = `attribute vec2 p; void main(){ gl_Position = vec4(p,0.,1.); }`;
+
+  const fs = `
+  precision mediump float;
+  uniform sampler2D uTex;
+  uniform vec2  uRes;
+  uniform float uTime;
+  uniform float uAspect;   // largeur / hauteur du logo
+  uniform float uPx;      // taille d'un "pixel" du dither
+
+  // Bayer 8x8 sans tableau (compatible WebGL1)
+  float b2(vec2 a){ a = floor(a); return fract(a.x/2. + a.y*a.y*.75); }
+  float b4(vec2 a){ return b2(.5*a)*.25 + b2(a); }
+  float b8(vec2 a){ return b4(.5*a)*.25 + b2(a); }
+
+  void main(){
+    vec2 cell = floor(gl_FragCoord.xy / uPx);
+    vec2 res  = uRes / uPx;
+    vec2 p = ((cell + .5) / res - .5) * vec2(res.x / res.y, 1.);
+
+    float a = uTime * .25;                       // vitesse de rotation
+    p = mat2(cos(a), -sin(a), sin(a), cos(a)) * p;
+    // remplace :  p /= .6;  vec2 t = p + .5;
+    const float uSize = 1.2;   // largeur du logo, en hauteurs d'écran
+    vec2 t = vec2(p.x / uSize, p.y * uAspect / uSize) + .5;
+
+    float shape = 0.;
+    float shade = 0.;
+    if (t.x > 0. && t.x < 1. && t.y > 0. && t.y < 1.) {
+      shape = texture2D(uTex, vec2(t.x, 1. - t.y)).a;
+      shade = .35 + .65 * t.y;                   // dégradé qui donne du grain au dither
+    }
+    float v = step(b8(cell), shape * shade);
+    gl_FragColor = vec4(0., 0., 0., v);          // noir ; mets vec4(1.) pour du blanc
+  }`;
+
+  function sh(type, src){ const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); return s; }
+  const prog = gl.createProgram();
+  gl.attachShader(prog, sh(gl.VERTEX_SHADER, vs));
+  gl.attachShader(prog, sh(gl.FRAGMENT_SHADER, fs));
+  gl.linkProgram(prog); gl.useProgram(prog);
+
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+  const loc = gl.getAttribLocation(prog, 'p');
+  gl.enableVertexAttribArray(loc);
+  gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+
+  const U = n => gl.getUniformLocation(prog, n);
+  const PX = 4; // 2 = fin, 4 = très gros grain
+
+  function resize(){
+    const dpr = Math.min(devicePixelRatio, 2);
+    canvas.width  = innerWidth  * dpr;
+    canvas.height = innerHeight * dpr;
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    gl.uniform2f(U('uRes'), canvas.width, canvas.height);
+    gl.uniform1f(U('uPx'), PX * dpr);
+  }
+  addEventListener('resize', resize); resize();
+
+  const img = new Image();
+  img.onload = () => {
+    const tex = gl.createTexture();
+    gl.bindTexture(gl.TEXTURE_2D, tex);
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    gl.uniform1i(U('uTex'), 0);
+    gl.uniform1f(U('uAspect'), img.naturalWidth / img.naturalHeight);
+    requestAnimationFrame(frame);
+  };
+  img.src = 'img/logo_x0f6-grey.svg'; // PNG avec transparence, ~512-1024 px (un SVG avec width/height explicites marche aussi)
+
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function frame(t){
+    gl.uniform1f(U('uTime'), reduce ? 0 : t / 1000);
+    gl.clearColor(0,0,0,0); gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    if (!reduce) requestAnimationFrame(frame);
+  }
+  </script>
+
+  <!-- Script anim logo -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  <script>
+    lottie.loadAnimation({
+      container: document.getElementById('logo-anim'),
+      path: 'lottie/logo_anim.json',
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    });
+  </script>
+
+
+
+  <script>
+    (function () {
+      const overlay = document.getElementById('lightbox');
+      const content = document.getElementById('lightbox-content');
+      const caption = document.getElementById('lightbox-caption');
+      // const closeBtn  = document.getElementById('lightbox-close');
+
+      function openLightbox(mediaEl, captionText) {
+        content.innerHTML = ''; // vide le contenu précédent
+
+        let clone;
+        if (mediaEl.tagName === 'VIDEO') {
+          clone = document.createElement('video');
+          // on récupère la vraie source, que la vidéo soit déjà
+          // chargée (src) ou encore en lazy-load (data-src)
+          const realSrc = mediaEl.src || mediaEl.dataset.src;
+          clone.src = realSrc;
+          clone.controls = true;
+          clone.autoplay = true;
+          clone.loop = true;
+          clone.muted = true;
+          clone.playsInline = true;
+        } else {
+          clone = document.createElement('img');
+          clone.src = mediaEl.src;
+          clone.alt = mediaEl.alt || '';
+        }
+
+        content.appendChild(clone);
+        caption.textContent = captionText || '';
+        overlay.classList.add('open');
+        document.body.style.overflow = 'hidden'; // empêche le scroll derrière
+      }
+
+      function closeLightbox() {
+        overlay.classList.remove('open');
+        document.body.style.overflow = '';
+        // coupe la vidéo pour libérer mémoire/réseau
+        const vid = content.querySelector('video');
+        if (vid) {
+          vid.pause();
+          vid.removeAttribute('src');
+          vid.load();
+        }
+        content.innerHTML = '';
+      }
+
+      // Ouverture au clic sur chaque .media
+      document.querySelectorAll('.item .media').forEach((mediaWrapper) => {
+        mediaWrapper.addEventListener('click', () => {
+          const mediaEl = mediaWrapper.querySelector('img, video');
+          if (!mediaEl) return;
+          const item = mediaWrapper.closest('.item');
+          const captionEl = item ? item.querySelector('p') : null;
+          openLightbox(mediaEl, captionEl ? captionEl.textContent : '');
+        });
+      });
+
+      // Fermeture : bouton, clic sur le fond, touche Échap
+      // closeBtn.addEventListener('click', closeLightbox);
+      overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) closeLightbox();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && overlay.classList.contains('open')) closeLightbox();
+      });
+    })();
+  </script>
+</body>
+
+</html>
